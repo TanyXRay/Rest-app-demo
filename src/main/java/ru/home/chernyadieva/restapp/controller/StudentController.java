@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 import ru.home.chernyadieva.restapp.entity.dto.StudentDTO;
 import ru.home.chernyadieva.restapp.entity.StudentEntity;
 import ru.home.chernyadieva.restapp.service.StudentService;
-import ru.home.chernyadieva.restapp.util.exception.StudentErrorResponse;
-import ru.home.chernyadieva.restapp.util.exception.StudentNotCreatedException;
-import ru.home.chernyadieva.restapp.util.exception.StudentNotFoundException;
+import ru.home.chernyadieva.restapp.util.StudentErrorResponse;
+import ru.home.chernyadieva.restapp.util.StudentNotCreatedException;
+import ru.home.chernyadieva.restapp.util.StudentNotFoundException;
 
 import java.time.LocalDateTime;
 import java.util.List;

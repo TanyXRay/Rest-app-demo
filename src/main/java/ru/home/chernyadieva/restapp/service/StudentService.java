@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.home.chernyadieva.restapp.entity.StudentEntity;
 import ru.home.chernyadieva.restapp.repository.StudentRepository;
-import ru.home.chernyadieva.restapp.util.exception.StudentNotFoundException;
+import ru.home.chernyadieva.restapp.util.StudentNotFoundException;
 
 import java.time.LocalDateTime;
 import java.util.List;
